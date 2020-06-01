@@ -211,8 +211,10 @@ p {
 
 
 /*Clases del Blog*/
-div>div>img {
+.galeria-content>.galeria-box {
     width: 350px;
+    border-radius: 10px;
+    border: 5px solid rgba(141, 165, 2, 0.952);
 }
 
 .galeria-container {
@@ -297,13 +299,6 @@ div>div>img {
     margin: 0px;
 }
 
-.padding-footer {
-    padding: 20px 0;
-}
-
-.padding-footer2 {
-    padding-top: 10px;
-}
 
 
 
@@ -332,4 +327,26 @@ clases del logo.ico y logo
 
 
 
-/* Comienzan las clases de Gustavo*/
+/* Comienzan las clases de Gustavo (Footer)*/
+.padding-footer {
+    padding: 20px 0;
+}
+
+.padding-footer2 {
+    padding-top: 10px;
+}
+
+.texto-footer {
+    font-family: 'Abril Fatface',
+        cursive;
+    color: rgba(145, 46, 7, 0.486);
+    padding: 10px;
+}
+
+/*-------------
+
+Clases del copyright
+*/
+.bg-color-copyright {
+    background-color: rgb(189, 155, 4);
+}
