@@ -1,0 +1,332 @@
+/* Clases del navbar*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.text-color {
+    color: rgb(11, 133, 11) !important;
+}
+
+a.text-color:hover {
+    color: red;
+}
+
+.mover-derecha {
+
+    margin-right: 50px;
+}
+
+.mover-derecha2 {
+    margin-right: 90px;
+}
+
+.mover-izquierda {
+    margin-left: 70px;
+}
+
+.mover-izquierda3 {
+    margin-left: 150px;
+}
+
+.sticky {
+    top: 0;
+}
+
+.padding-navbar {
+    padding: 20px 0px;
+}
+
+
+
+ul>li {
+    margin-left: 50px;
+}
+
+.nav-transparente {
+    background-color: rgba(5, 146, 12, 0.589);
+
+}
+
+.bg-menu {
+    background-image: url("./imagenes/frutas-menu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.color-boton {
+    background-color: rgba(15, 158, 10, 0.952);
+    border-radius: 10px;
+}
+
+/*Carrusel responsive*/
+@media(min-width:990px) {
+    span.titulo {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-inner>.carousel-item>img {
+
+        min-width: 100%;
+        max-height: 600px;
+    }
+
+    .parrafo {
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: rgb(240, 240, 233);
+
+    }
+
+    .card {
+        border: solid 1px rgb(208, 211, 210);
+        background-color: rgba(210, 180, 140, 0.301);
+        width: 600px;
+        margin: 230px 0;
+
+    }
+
+    .titulo {
+        font-size: 50px;
+        color: rgb(223, 226, 31);
+        font-family: 'Abril Fatface',
+            cursive;
+    }
+}
+
+@media (min-width:640px) and (max-width:768px) {
+    .carousel-inner>.carousel-item>img {
+
+        min-width: 100%;
+        max-height: 500px;
+    }
+
+    .parrafo {
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: sans-serif;
+        color: rgb(240, 240, 233);
+    }
+
+    .card {
+        border: solid 1px rgb(208, 211, 210);
+        background-color: rgba(210, 180, 140, 0.301);
+        width: 600px;
+        margin: 230px 0px;
+
+    }
+
+    .titulo {
+        font-size: 40px;
+        color: rgb(223, 226, 31);
+        font-family: 'Abril Fatface',
+            cursive;
+    }
+}
+
+
+
+@media (max-width: 640px) {
+    .carousel-inner>.carousel-item>img {
+
+        min-width: 100%;
+        max-height: 400px;
+    }
+
+    .parrafo {
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: sans-serif;
+        color: rgb(240, 240, 233);
+    }
+
+    .card {
+        border: solid 1px rgb(208, 211, 210);
+        background-color: rgba(210, 180, 140, 0.301);
+        width: 300px;
+        margin: 230px 0;
+
+    }
+
+    span.titulo {
+        display: none;
+    }
+}
+
+
+
+/* Clases de Quienes Somos*/
+
+
+h2,
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.h2-margenes {
+    padding: 40px 10px;
+}
+
+.padding-h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgb(240, 240, 233);
+}
+
+
+
+.bg-quienes-somos {
+    background-image: url("./imagenes/frutas-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quienes-somos-bg-col {
+    background-color: rgb(233, 233, 227) !important;
+}
+
+
+
+/*Clases del Blog*/
+
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*padding: 1em;*/
+    /*margin: 1em;*/
+}
+
+.galeria-content {
+    padding: 1em;
+    flex-grow: 1;
+    min-width: 220px;
+}
+
+.galeria-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.background-image {
+    background-image: url("./imagenes/frutas-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background: rgb(247, 224, 196, 0.9);*/
+    /*filter: blur(1px);*/
+
+}
+
+.opacidad {
+    opacity: 0.9;
+}
+
+.float {
+    float: left;
+}
+
+.card1 {
+    border: none;
+    width: 500px;
+    margin-left: 50px;
+    /* background: rgb(241, 213, 179, 0.3);*/
+
+}
+
+.card2 {
+    border: none;
+    /* margin-right: 50px;*/
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: rgb(243, 242, 240);
+    /*opacity: 0.9;*/
+}
+
+.button-color:hover {
+
+    opacity: 1.0;
+    color: aliceblue;
+}
+
+.font-size-Anuncio {
+    font-size: 70px;
+    color: aliceblue;
+    opacity: 0.9;
+
+}
+
+.border-checkbox {
+    border: 1px solid #F9A825;
+}
+
+.border-checkbox:hover {
+    color: #F9A825;
+}
+
+.parrafo-estilos {
+    padding: 0px;
+    margin: 0px;
+}
+
+.padding-footer {
+    padding: 20px 0;
+}
+
+.padding-footer2 {
+    padding-top: 10px;
+}
+
+
+
+/*--------
+clases del logo.ico y logo
+*/
+.ico-imagen {
+    border-radius: 50%;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Comienzan las clases de Gustavo*/
