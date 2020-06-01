@@ -211,6 +211,9 @@ p {
 
 
 /*Clases del Blog*/
+div>div>img {
+    width: 350px;
+}
 
 .galeria-container {
     display: flex;
