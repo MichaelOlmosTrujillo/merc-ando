@@ -12,6 +12,10 @@ img {
     max-width: 100%;
 }
 
+#logo {
+    max-width: 100px;
+}
+
 .menu {
     display: flex;
     padding-left: 0;
@@ -76,10 +80,15 @@ ul>li {
 }
 
 /*Carrusel responsive*/
-@media(min-width:990px) {
-    span.titulo {
-        display: none;
+@media(min-width:1126px) {
+    .titulo {
+        font-size: 50px;
+        color: rgb(223, 226, 31);
+        font-family: 'Abril Fatface',
+            cursive;
+        padding: 0px 140px;
     }
+
 }
 
 @media (min-width: 768px) {
