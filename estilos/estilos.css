@@ -168,12 +168,11 @@ ul>li {
     .grid-container-footer {
         display: grid;
         grid-template-areas:
-            'logo nosotros '
-            'logo nosotros'
-            'agricultores atencion-cliente'
-            'agricultores atencion-cliente';
+            'logo nosotros atencion-cliente'
+            'logo agricultores atencion-cliente';
         gap: 10px;
         justify-content: space-around;
+        align-items: center;
 
 
     }
@@ -219,12 +218,8 @@ ul>li {
         display: grid;
         grid-template-areas:
             'logo'
-            'logo'
-            'nosotros'
             'nosotros'
             'agricultores'
-            'agricultores'
-            'atencion-cliente'
             'atencion-cliente';
         gap: 10px;
         justify-content: space-around;
@@ -435,9 +430,12 @@ clases del logo.ico y logo
 }
 
 .agricultores {
-    grid-area: 'atencion-cliente';
+    grid-area: 'agricultores';
 }
 
+.atencion-cliente {
+    grid-area: 'atencion-cliente';
+}
 
 
 .padding-footer {
