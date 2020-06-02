@@ -212,9 +212,14 @@ p {
 
 /*Clases del Blog*/
 .galeria-content>.galeria-box {
-    width: 350px;
+    width: 330px;
     border-radius: 10px;
     border: 5px solid rgba(141, 165, 2, 0.952);
+}
+
+.galeria-container>.galeria-content {
+    display: flex;
+    justify-content: center;
 }
 
 .galeria-container {
@@ -225,7 +230,7 @@ p {
 }
 
 .galeria-content {
-    padding: 1em;
+    /*padding: 1em;*/
     flex-grow: 1;
     min-width: 220px;
 }
@@ -234,6 +239,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px 0px;
 }
 
 
